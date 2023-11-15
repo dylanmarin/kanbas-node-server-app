@@ -1,7 +1,9 @@
 import express from "express";
 import Hello from "./hello.js";
 import Lab5 from "./lab5.js";
-// import CourseRoutes from "./courses/routes.js";
+import CourseRoutes from "./courses/routes.js";
+
+
 // import ModuleRoutes from "./modules/routes.js";
 import cors from "cors";
 
@@ -11,7 +13,7 @@ app.use(express.json());
 
 // ModuleRoutes(app);
 
-// CourseRoutes(app);
+CourseRoutes(app);
 Lab5(app);
 Hello(app);
 

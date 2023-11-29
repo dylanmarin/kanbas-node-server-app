@@ -22,7 +22,6 @@ app.use(
     })
 );
 
-
 const sessionOptions = {
     secret: "any string",
     resave: false,
